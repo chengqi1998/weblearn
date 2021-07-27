@@ -22,7 +22,7 @@ public class LoginController {
             return "redirect:/main.html";
         }else{
             model.addAttribute("msg","输入错误");
-            return "index";
+            return "index.html";
         }
     }
 
