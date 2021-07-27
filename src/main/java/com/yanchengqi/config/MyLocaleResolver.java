@@ -15,7 +15,6 @@ public class MyLocaleResolver implements LocaleResolver {
 //        解析请求
 //      获得请求里的链接
         String language = httpServletRequest.getParameter("l");
-        System.out.println("----------------"+language);
         Locale locale = Locale.getDefault();//默认的
         if(!StringUtils.isEmpty(language)){
             String[] spilt=language.split("_");
