@@ -19,8 +19,8 @@ public class EmployeeDao {
     static {
         employees = new HashMap<Integer,Employee>();
         employees.put(1001,new Employee(1001,"AA","123@qq.com",0,new Department(101,"教学部")));
-        employees.put(1002,new Employee(1001,"BB","123@qq.com",1,new Department(101,"教学部")));
-        employees.put(1003,new Employee(1001,"CC","123@qq.com",0,new Department(101,"教学部")));
+        employees.put(1002,new Employee(1002,"BB","123@qq.com",1,new Department(101,"教学部")));
+        employees.put(1003,new Employee(1003,"CC","123@qq.com",0,new Department(101,"教学部")));
         employees.put(1004,new Employee(1001,"DD","123@qq.com",1,new Department(101,"教学部")));
         employees.put(1005,new Employee(1001,"EE","123@qq.com",0,new Department(101,"教学部")));
     }
